@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #075e54;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0b8a7d;
+}
+
+input, button {
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #075e54;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0b8a7d;
+}
+
+.list-item {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.list-item:last-child {
+    border-bottom: none;
+}
+
+.topbar {
+    background: #075e54;
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    margin-top: 20px;
+}
+
+.nav-links a {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.btn-danger {
+    background: #d9534f;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.btn-danger:hover {
+    background: #c9302c;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.small-text {
+    color: #777;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+form label{
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: 600;
+    color: #333;
+}
+
+form input{
+    width: 100%;
+    display: block;
+    margin-bottom: 14px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
